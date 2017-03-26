@@ -35,6 +35,12 @@ import com.linecorp.bot.model.event.message.TextMessageContent;
 import com.linecorp.bot.model.message.TextMessage;
 import com.linecorp.bot.model.profile.UserProfileResponse;
 
+/**
+ * 
+ * LINE BOT Example01<br>
+ * テキストメッセージを受信してテキストメッセージで返事をするServlet
+ *
+ */
 @SuppressWarnings("serial")
 public class LineBotExample01Servlet extends LineBotServlet {
 
