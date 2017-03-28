@@ -14,7 +14,7 @@
 5."Import as general project"をチェックして、"finish"  を押す
 
 
-### creentialsをセットする
+### credentialsをセットする
 
 1.プロジェクト上で、右クリック
 2.Configure>Convert to Maven project  
