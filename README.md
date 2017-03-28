@@ -10,7 +10,7 @@
 1.Select File>Import>Git - Projects from Git  
 2.Clone URI  
 3.set clone URI to https://github.com/riversun/line-bot-servlet-examples.git  
-4.適宜[NEXT]を押していく
+4.適宜[NEXT]を押していく  
 5."Import as general project"をチェックして、"finish"  を押す
 
 
@@ -28,11 +28,12 @@ line.channel_secret=xxxxxxxxxxxxxxxxxxxxxxxxxxx
 line.channel_access_token=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
-<hr>
 ### Run
+
 
 1.Run AppMain.java  で実行
 
+<hr>
 
 
 ## How to import into your Eclipse and Run.
