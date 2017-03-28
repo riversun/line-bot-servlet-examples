@@ -16,7 +16,7 @@
 
 ### credentialsをセットする
 
-1.プロジェクト上で、右クリック
+1.プロジェクト上で、右クリック  
 2.Configure>Convert to Maven project  
 3.(これでmaven projectとしてEclipseに読み込まれます)  
 4.secret,access_tokenをセット
