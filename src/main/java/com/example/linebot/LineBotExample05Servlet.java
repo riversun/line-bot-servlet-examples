@@ -48,9 +48,8 @@ import com.linecorp.bot.model.message.template.ButtonsTemplate;
  * Buttonsテンプレートメッセージ（ボタンによる複数選択でリンクを返す）を返すServlet
  *
  */
+@SuppressWarnings("serial")
 public class LineBotExample05Servlet extends LineBotServlet {
-
-	private static final long serialVersionUID = 1L;
 
 	private static final String CHANNEL_SECRET = ResourceBundle.getBundle("credentials").getString("line.channel_secret");
 	private static final String CHANNEL_ACCESS_TOKEN = ResourceBundle.getBundle("credentials").getString("line.channel_access_token");

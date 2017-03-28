@@ -44,9 +44,8 @@ import com.linecorp.bot.model.message.TextMessage;
  * 画像を受信して保存するServlet
  *
  */
+@SuppressWarnings("serial")
 public class LineBotExample03Servlet extends LineBotServlet {
-
-	private static final long serialVersionUID = 1L;
 
 	private static final String CHANNEL_SECRET = ResourceBundle.getBundle("credentials").getString("line.channel_secret");
 	private static final String CHANNEL_ACCESS_TOKEN = ResourceBundle.getBundle("credentials").getString("line.channel_access_token");
