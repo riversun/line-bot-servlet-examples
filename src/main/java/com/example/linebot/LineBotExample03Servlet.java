@@ -63,7 +63,7 @@ public class LineBotExample03Servlet extends LineBotServlet {
 		InputStream is = getContentStream(event.getMessage());
 
 		// 画像ファイルの保存先パス
-		String tempImageFilePath = "line_img_" + System.getProperty("user.dir") + "/" + System.currentTimeMillis() + ".jpg";
+		String tempImageFilePath = System.getProperty("user.dir") + "/" + "line_img_" + System.currentTimeMillis() + ".jpg";
 
 		// ファイルを保存
 		Files.copy(is, Paths.get(tempImageFilePath));
