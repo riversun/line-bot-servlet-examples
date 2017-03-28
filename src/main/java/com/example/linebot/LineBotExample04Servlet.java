@@ -82,8 +82,6 @@ public class LineBotExample04Servlet extends LineBotServlet {
 	protected ReplyMessage handlePostbackEvent(PostbackEvent event) {
 		// ButtonsTemplateでユーザーが選択した結果が、このPostBackEventとして返ってくる
 
-		UserProfileResponse userProfile = getUserProfile(event.getSource().getUserId());
-
 		PostbackContent postbackContent = event.getPostbackContent();
 
 		// PostbackActionで設定したdataを取得する
@@ -99,7 +97,7 @@ public class LineBotExample04Servlet extends LineBotServlet {
 			replyText = "フレンチ、私も食べたいです。";
 		}
 
-		return new ReplyMessage(event.getReplyToken(), Arrays.asList(new TextMessage(userProfile.getDisplayName() + "さんは、" + replyText)));
+		return new ReplyMessage(event.getReplyToken(), Arrays.asList(new TextMessage(replyText)));
 	}
 
 	@Override
