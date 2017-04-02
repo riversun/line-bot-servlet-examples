@@ -32,6 +32,10 @@ public class AppMain {
 		ServletHandler handler = new ServletHandler();
 
 		handler.addServletWithMapping(LineBotExample01Servlet.class, "/callback");
+		//handler.addServletWithMapping(LineBotExample02Servlet.class, "/callback");
+		//handler.addServletWithMapping(LineBotExample03Servlet.class, "/callback");
+		//handler.addServletWithMapping(LineBotExample04Servlet.class, "/callback");
+		//handler.addServletWithMapping(LineBotExample05Servlet.class, "/callback");
 
 		// loclahost:3000でJettyを起動
 		Server jetty = new Server(3000);
